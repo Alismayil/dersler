@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+}
+
+.large_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.large_box .text_1 {
+  font-size: 120px;
+}
+.large_box .text_2 {
+  font-size: 40px;
+}
+.large_box .btn {
+  padding: 80px;
+}
+.large_box .btn .btn_in {
+  padding: 15px 23px;
+  background-color: rgb(35, 98, 171);
+  border: 1px solid black;
+  border-radius: 12px;
+  color: white;
+}
+
+.next_project {
+  height: 40vh;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.next_project .next_text_1 {
+  font-size: 50px;
+}
+.next_project .next_text_2 {
+  font-size: 20px;
+}
+.next_project .btn_2 {
+  padding: 80px;
+}
+.next_project .btn_2 .btn_in_2 {
+  padding: 15px 23px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid black;
+  border-radius: 12px;
+  color: white;
+}
+
+.what {
+  height: 50vh;
+  width: 100%;
+  background-color: rgb(35, 98, 171);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.what .what_in {
+  width: 100%;
+  display: flex;
+}
+.what .what_in .what_text_1 {
+  font-size: 20px;
+  color: yellow;
+  padding-left: 240px;
+  margin-top: 50px;
+}
+.what .what_in .what_text_2 {
+  font-size: 50px;
+  color: white;
+  padding-left: 240px;
+}
+.what .what_in .icon_fond {
+  display: flex;
+  gap: 40px;
+  margin-left: 250px;
+}
+.what .what_in .icon_fond .box_1 {
+  height: 250px;
+  width: 270px;
+  background-color: white;
+}
+.what .what_in .icon_fond .box_1 .icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 85px;
+}
+.what .what_in .icon_fond .box_1 .icon .fa-brands {
+  font-size: 50px;
+  margin-top: 23px;
+}
+.what .what_in .icon_fond .box_1 .icn_txt_1 {
+  margin-top: 20px;
+}
+.what .what_in .icon_fond .box_1 .icn_txt_2 {
+  margin-top: 20px;
+}
+
+.welcome {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.welcome .welcome_text_1 {
+  font-size: 60px;
+  width: 500px;
+}
+.welcome .btn_3 {
+  padding: 80px;
+}
+.welcome .btn_3 .btn_in_3 {
+  padding: 15px 23px;
+  background-color: rgb(35, 98, 171);
+  border: 1px solid black;
+  border-radius: 12px;
+  color: white;
+}
+
+.recent {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+.recent .recent_text_1 {
+  font-size: 20px;
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,195 @@
+#start {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+}
+#start nav {
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#start .nav-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#start .nav-navbar .navbar {
+  width: 100%;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+#start .nav-navbar .navbar a {
+  padding-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#start .txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#start .txt .txt_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#start .txt .txt_box .start_txt_1 {
+  color: white;
+  max-width: 1000px;
+  font-size: 70px;
+  text-align: center;
+}
+#start .txt .txt_box .start_txt_2 {
+  color: rgb(183, 178, 170);
+  font-size: 20px;
+  max-width: 660px;
+  text-align: center;
+  padding: 30px 0;
+}
+#start .txt .txt_box .btn_1 {
+  padding: 20px 15px;
+  background-color: #c34e2e;
+  border-radius: 20px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.need {
+  background-color: #c34e2e;
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.need .need_in {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.need .need_in .need_txt_1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  max-width: 1000px;
+}
+.need .need_in .need_txt_2 {
+  color: rgb(188, 185, 185);
+  font-size: 20px;
+  max-width: 1000px;
+  text-align: center;
+  padding: 30px 0;
+}
+.need .need_in .btn_2 {
+  padding: 20px 15px;
+  background-color: #000000;
+  border-radius: 20px;
+  max-width: 120px;
+}
+
+.service {
+  height: 40vh;
+  width: 100%;
+  background-color: white;
+}
+.service .service_txt_1 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+.service .icon_box {
+  display: flex;
+  justify-content: space-around;
+}
+.service .icon_box .box_1 {
+  height: 320px;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 50px;
+}
+.service .icon_box .box_1 .fa-regular, .service .icon_box .box_1 .fa-solid {
+  font-size: 50px;
+  color: #c34e2e;
+  margin-top: 40px;
+}
+.service .icon_box .box_1 .icon_txt_1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
+.service .icon_box .box_1 .icon_txt_2 {
+  max-width: 300px;
+  color: rgb(177, 177, 177);
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

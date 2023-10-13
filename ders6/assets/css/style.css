@@ -1,0 +1,171 @@
+body{
+    background-image: url(https://live.staticflickr.com/8198/8212101251_3e868c9169_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    height: 0900px;
+    width: 1000px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.body{
+    height: 220px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+.head{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    top: 120px;
+    left: 425px; 
+    border-radius: 50%;
+}
+.arm_l{
+    background-color: black;
+    height: 20px;
+    width: 140px;
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
+.arm_r{
+    background-color: black;
+    height: 20px;
+    width: 140px;
+    position: absolute;
+    top: 260px;
+    right: 340px;
+}
+.foot_l{
+    background-color: black;
+    width: 20px;
+    height: 220px;
+    position: absolute;
+    top: 450px;
+    left: 410px;
+}
+.foot_r{
+    background-color: black;
+    width: 20px;
+    height: 220px;
+    position: absolute;
+    top: 450px;
+    right: 460px;
+}
+.leg_l{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    position: absolute;
+    top: 680px;
+    left: 360px;
+}
+.leg_r{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    position: absolute;
+    top: 680px;
+    right: 410px;
+}
+.fl_g{
+    background-color: green;
+    height: 75px;
+    width: 15px;
+    position: absolute;
+    left: 650px;
+    top: 215px;
+}
+.fl_b{
+    background-color: red;
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    left: 632px;
+    top: 180px;
+    border-radius: 20px;
+}
+.eye_l{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border:1px solid black;
+    border-radius: 50%;
+    top: 140px;
+    left: 445px;
+}
+.eye_r{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border:1px solid black;
+    border-radius: 50%;
+    top: 140px;
+    right: 495px;
+}
+.mouth{
+    background-color: white;
+    border: 1px solid black;
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    border-radius: 16px;
+    left: 450px;
+    top: 180px;
+}
+.button_1{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 400px;
+    left: 467px;
+}
+.button_2{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 300px;
+    left: 467px;
+}
+.button_3{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 350px;
+    left: 467px;
+}
+
+
+.flower {
+    animation: circle infinite 2s;
+    animation-fill-mode: forwards backwards;
+    animation-direction: alternate;
+}
+
+@keyframes circle {
+    0% {
+        transform: translateY(0px) rotate(360deg);
+    }
+
+    100% {
+        transform: translateY(-165px) rotate(0deg);
+    }
+}

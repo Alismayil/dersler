@@ -1,0 +1,129 @@
+#end{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    .konato{
+        height: 40vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        
+        .konato_in{
+            text-decoration: none;
+        }
+        .end_txt_1{
+            font-size: 40px;
+            margin-top: 90px;
+            text-align: center;
+            color: #004274;
+        }
+        .end_txt_1_in{
+            color: gray;
+            font-size: 18px;
+            max-width: 600px;
+            text-align: center;
+            
+        }
+        .end_social{
+            color: gray;
+            font-size: 20px;
+            justify-content: center;
+            gap: 10px;
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+        }
+    }
+    .navigation{
+        height: 40vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .end_txt_2{
+            margin-top: 90px;
+            font-size: 25px;
+        }
+        .end_txt_2_in{
+            margin-top: 10px;
+            color: gray;
+            text-decoration: none;
+        }
+    }
+    .services{
+        height: 40vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .end_txt_3{
+            margin-top: 90px;
+            font-size: 25px;
+        }
+        .end_txt_3_in{
+            margin-top: 10px;
+            color: gray;
+            text-decoration: none;
+        }
+    }
+    .support{
+        height: 40vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .end_txt_4{
+            margin-top: 90px;
+            font-size: 25px;
+        }
+        .end_txt_4_in{
+            margin-top: 10px;
+            color: gray;
+            text-decoration: none;
+        }
+    }
+    .contact{
+        height: 40vh;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        .end_txt_5{
+            margin-top: 90px;
+            font-size: 25px;
+        }
+        .end_txt_5_in{
+            margin-top: 10px;
+            color: gray;
+            text-decoration: none;
+        }
+        .end_txt_5_in_number{
+            color: #004274;
+            font-size: 20px;
+            text-decoration: none;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

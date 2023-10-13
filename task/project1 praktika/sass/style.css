@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.parent #clarence {
+  grid-area: 1/2/2/3;
+}
+.parent #experience {
+  grid-area: 2/2/3/3;
+}
+.parent #education {
+  grid-area: 3/2/4/3;
+}
+.parent #skills {
+  grid-area: 4/2/5/3;
+}
+.parent #interest {
+  grid-area: 5/2/6/3;
+}
+.parent #awards {
+  grid-area: 6/2/7/3;
+}
+.parent #menu {
+  grid-area: 1/1/7/2;
+}
+.parent #clarence {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #experience {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #education {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #skills {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #interest {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #awards {
+  border: 1px solid gray;
+  height: 100vh;
+}
+.parent #menu {
+  border: 1px solid gray;
+  background-color: rgb(192, 88, 50);
+  height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  width: 14.3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parent #menu .menu_img {
+  height: 19vh;
+  width: 100%;
+  border-radius: 50%;
+  border: 10px solid rgb(218, 132, 85);
+  margin-top: 150%;
+}
+.parent #menu .menu_text {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 10%;
+}
+.parent #menu .menu_text .menu_link {
+  text-decoration: none;
+  color: rgb(226, 209, 209);
+}
+.parent #clarence {
+  position: relative;
+}
+.parent #clarence .page1_txt_1 {
+  display: flex;
+  font-size: 100px;
+  gap: 50px;
+  position: absolute;
+  left: 7%;
+  top: 35%;
+}
+.parent #clarence .page1_txt_1 .page1_txt_1_left {
+  color: black;
+}
+.parent #clarence .page1_txt_1 .page1_txt_1_right {
+  color: rgb(192, 88, 50);
+}
+.parent #clarence .page1_txt_2 {
+  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 7%;
+  top: 45%;
+}
+.parent #clarence .page1_txt_2 .page1_txt_2_left {
+  color: black;
+}
+.parent #clarence .page1_txt_2 .page1_txt_2_right {
+  color: rgb(192, 88, 50);
+}
+.parent #clarence .page1_txt_3 {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  left: 7%;
+  top: 55%;
+  max-width: 70%;
+}
+.parent #clarence .page_icon {
+  display: flex;
+  gap: 30%;
+  position: absolute;
+  top: 65%;
+  left: 8%;
+}
+.parent #clarence .page_icon #page_icon_in {
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  height: 150%;
+  width: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.parent #clarence .page_icon #page_icon_in:hover {
+  background-color: rgb(192, 88, 50);
+}
+.parent #experience {
+  position: relative;
+}
+.parent #experience .page2_text {
+  font-size: 50px;
+  position: absolute;
+  top: 2%;
+  left: 70px;
+}
+.parent #experience .page2_box1 {
+  height: 20%;
+  width: 80%;
+  position: absolute;
+  top: 9%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #experience .page2_box1 .page2_box_txt_1 {
+  font-size: 30px;
+  position: absolute;
+  left: 1%;
+  top: 40px;
+}
+.parent #experience .page2_box1 .page2_box_txt_2 {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  left: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box1 .page2_box_txt_3 {
+  max-width: 70%;
+  position: absolute;
+  left: 1%;
+  top: 120px;
+}
+.parent #experience .page2_box1 .page2_box_txt_4 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  right: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box2 {
+  height: 20%;
+  width: 80%;
+  position: absolute;
+  top: 31%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #experience .page2_box2 .page2_box_txt_1 {
+  font-size: 30px;
+  position: absolute;
+  left: 1%;
+  top: 40px;
+}
+.parent #experience .page2_box2 .page2_box_txt_2 {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  left: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box2 .page2_box_txt_3 {
+  max-width: 70%;
+  position: absolute;
+  left: 1%;
+  top: 120px;
+}
+.parent #experience .page2_box2 .page2_box_txt_4 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  right: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box3 {
+  height: 20%;
+  width: 80%;
+  position: absolute;
+  top: 52.5%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #experience .page2_box3 .page2_box_txt_1 {
+  font-size: 30px;
+  position: absolute;
+  left: 1%;
+  top: 40px;
+}
+.parent #experience .page2_box3 .page2_box_txt_2 {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  left: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box3 .page2_box_txt_3 {
+  max-width: 70%;
+  position: absolute;
+  left: 1%;
+  top: 120px;
+}
+.parent #experience .page2_box3 .page2_box_txt_4 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  right: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box4 {
+  height: 20%;
+  width: 80%;
+  position: absolute;
+  top: 75%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #experience .page2_box4 .page2_box_txt_1 {
+  font-size: 30px;
+  position: absolute;
+  left: 1%;
+  top: 40px;
+}
+.parent #experience .page2_box4 .page2_box_txt_2 {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  left: 1%;
+  top: 70px;
+}
+.parent #experience .page2_box4 .page2_box_txt_3 {
+  max-width: 70%;
+  position: absolute;
+  left: 1%;
+  top: 120px;
+}
+.parent #experience .page2_box4 .page2_box_txt_4 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  right: 1%;
+  top: 70px;
+}
+.parent #education {
+  position: relative;
+}
+.parent #education .page3_text {
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 70px;
+}
+.parent #education .page3_box1 {
+  height: 20%;
+  width: 80%;
+  position: relative;
+  top: 32%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #education .page3_box1 .page3_box_txt_1 {
+  font-size: 30px;
+}
+.parent #education .page3_box1 .page3_box_txt_2 {
+  color: gray;
+  font-size: 25px;
+}
+.parent #education .page3_box1 .page3_box_txt_3 {
+  color: gray;
+  position: absolute;
+  top: 110px;
+}
+.parent #education .page3_box1 .page3_box_txt_4 {
+  color: gray;
+  position: absolute;
+  top: 140px;
+}
+.parent #education .page3_box1 .page3_box_txt_5 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+.parent #education .page3_box2 {
+  height: 20%;
+  width: 80%;
+  position: relative;
+  top: 44%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #education .page3_box2 .page3_box_txt_1 {
+  font-size: 30px;
+}
+.parent #education .page3_box2 .page3_box_txt_2 {
+  color: gray;
+  font-size: 25px;
+}
+.parent #education .page3_box2 .page3_box_txt_3 {
+  color: gray;
+  position: absolute;
+  top: 110px;
+}
+.parent #education .page3_box2 .page3_box_txt_4 {
+  color: gray;
+  position: absolute;
+  top: 140px;
+}
+.parent #education .page3_box2 .page3_box_txt_5 {
+  color: rgb(192, 88, 50);
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+.parent #skills {
+  position: relative;
+}
+.parent #skills .page4_text {
+  font-size: 50px;
+  position: absolute;
+  top: 20%;
+  left: 70px;
+}
+.parent #skills .page4_box_1 {
+  height: 20%;
+  width: 80%;
+  position: relative;
+  top: 42%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #skills .page4_box_1 .page4_box_1_txt {
+  font-size: 25px;
+  color: gray;
+}
+.parent #skills .page4_box_1 .page4_box_1_icon {
+  font-size: 50px;
+  color: gray;
+}
+.parent #skills .page4_box_2 {
+  height: 20%;
+  width: 80%;
+  position: relative;
+  top: 43%;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.parent #skills .page4_box_2 .page4_box_2_txt_1 {
+  color: gray;
+  font-size: 30px;
+}
+.parent #skills .page4_box_2 .page4_box_2_txt_2 {
+  color: gray;
+}
+.parent #interest {
+  position: relative;
+}
+.parent #interest .page5_txt_1 {
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 70px;
+}
+.parent #interest .page5_txt_2 {
+  font-size: 20px;
+  color: gray;
+  position: absolute;
+  top: 55%;
+  left: 70px;
+  max-width: 80%;
+}
+.parent #interest .page5_txt_3 {
+  font-size: 20px;
+  color: gray;
+  position: absolute;
+  top: 65%;
+  left: 70px;
+  max-width: 80%;
+}
+.parent #awards {
+  position: relative;
+}
+.parent #awards .page6_txt_1 {
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left: 70px;
+}
+.parent #awards .page6_txt_2 {
+  font-size: 20px;
+  color: gray;
+  position: absolute;
+  top: 55%;
+  left: 70px;
+  max-width: 80%;
+}
+.parent #awards .page6_txt_2 #page6_icon {
+  color: gold;
+}/*# sourceMappingURL=style.css.map */

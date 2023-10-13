@@ -1,0 +1,130 @@
+body{
+    scrollbar-color: red ;
+}
+
+.large_box{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    grid-template:repeat(3, 250px)/ repeat(3, 300px) ;
+    gap: 20px;
+    border-radius: 20px;
+    grid-template-areas: 'member1 member2 member3'
+                           'member1 member4 member5 '
+                           'member6 member7 member8 ';
+  
+    
+}
+.member1{
+    border: 2px solid rgb(255, 0, 0);
+    background-color: gray;
+    border-radius: 20px;
+    perspective: 20rem;
+    grid-area: member1;
+
+
+}
+.member2{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member2;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member3{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member3;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member4{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member4;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member5{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member5;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member6{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member6;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member7{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member7;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.member8{
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    grid-area: member8 ;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.text{
+    font-size: 20px;
+    height: 40px;
+    width: 270px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 10px;
+    text-align: center;
+    
+    
+}
+.text:hover{
+    transform: rotateY(60deg);
+    transform-origin: top left;
+}
+@media screen and (max-width:992px) {
+    .large_box{
+        grid-template-areas: 'member1 member2 '
+                               'member1 member3'
+                               'member4 member5 '
+                               'member6 member7'
+                                'member8 member8';
+          
+    }
+}
+@media screen and (max-width:600px) {
+    .large_box{
+        grid-template-areas: 'member1' 
+                            'member1' 
+                            'member2 '  
+                            'member3'
+                            'member4' 
+                            'member5 '
+                            'member6'
+                            'member7'
+                            'member8 ';
+          
+    }
+}

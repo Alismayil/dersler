@@ -1,0 +1,43 @@
+svg{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    
+}
+.box1{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(145, 139, 139);
+    display: flex;
+    justify-content: center;
+
+}
+.box2{
+    height: 50px;
+    width: 1000px;
+    background-color: rgb(145, 139, 139);
+    display: flex;
+    justify-content: center ;
+    gap: calc(30px);
+    align-items: center;
+}
+.box3{
+    background-color: rgb(145, 139, 139);
+    height: 50px;
+    width: 290px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar{
+    display: flex;
+    background-color: rgb(145, 139, 139);
+}
+.search{
+    height: 15px;
+    width: 140px;
+    border-radius: 10px;
+   
+}
